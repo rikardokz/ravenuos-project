@@ -1,9 +1,8 @@
 import React from 'react';
-import './App';
-import BusinessList from "../BusinessList/BusinessList";
-import SearchBar from "../SearchBar/SearchBar";
-import Business from '../Business/Business';
-import { render } from '@testing-library/react';
+import './App.css';
+
+import BusinessList from '../BusinessList/BusinessList';
+import SearchBar from '../SearchBar/SearchBar';
 
 class App extends React.Component {
   render() {
@@ -13,9 +12,8 @@ class App extends React.Component {
         <SearchBar />
         <BusinessList />
       </div>
-    )
-   }
+    );
+  }
 }
-    
 
 export default App;
